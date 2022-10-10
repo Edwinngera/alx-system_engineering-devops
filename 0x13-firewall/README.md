@@ -21,7 +21,7 @@ In this project, I used `ufw` to configure firewalls on my issued web servers.
 	  * To filter outgoing traffic.
 
 * **1. Block all incoming traffic but**
-  * [1-block_all_incoming_traffic_but](./1-block_all_incoming_traffic_but): Bash
+  * [0-block_all_incoming_traffic_but](./1-block_all_incoming_traffic_but): Bash
   script that installs a `ufw` firewall to block all incoming traffic except for
   ports `22`, `443` and `80` on a web server.
 
